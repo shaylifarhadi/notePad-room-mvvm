@@ -30,10 +30,7 @@ public class NoteRepository{
                 myNoteDao.delete(note));
     }
 
-    public void updateNote(Note note){
-        NoteRoomDatabase.databaseWriteExecutor.execute(()->
-                myNoteDao.updateNote(note));
-    }
+
 
 }
 
