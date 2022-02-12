@@ -9,17 +9,23 @@
         android:id="@+id/listFragment"
         android:name="com.example.notepadjava.ui.list.ListFragment"
         android:label="list_fragment"
-        tools:layout="@layout/list_fragment" >
+        tools:layout="@layout/list_fragment"
+        app:defaultNavHost="true">
         <action
             android:id="@+id/action_listFragment_to_addFragment"
             app:destination="@id/addFragment" />
-        <argument
-            android:name="note"
-            app:argType="string" />
+
     </fragment>
     <fragment
         android:id="@+id/addFragment"
         android:name="com.example.notepadjava.ui.add.AddFragment"
         android:label="add_fragment"
-        tools:layout="@layout/add_fragment" />
+        tools:layout="@layout/add_fragment"
+        app:defaultNavHost="true">
+        <action
+            android:id="@+id/action_addFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+
+    </fragment>
+
 </navigation>

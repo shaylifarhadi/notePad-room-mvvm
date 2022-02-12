@@ -24,5 +24,12 @@ public class NoteRepository{
         NoteRoomDatabase.databaseWriteExecutor.execute(() ->
                 myNoteDao.insertNote(note));
     }
+
+    public void delete(Note note){
+        NoteRoomDatabase.databaseWriteExecutor.execute(() ->
+                myNoteDao.delete(note));
+    }
+
+
 }
 

@@ -4,8 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/NotepadJava/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.181" />
+        <entry key="..\:/NotepadJava/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2115" />
+        <entry key="..\:/NotepadJava/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.2115" />
         <entry key="..\:/NotepadJava/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/NotepadJava/app/src/main/res/layout/item_note.xml" value="0.19166666666666668" />
+        <entry key="..\:/NotepadJava/app/src/main/res/layout/add_fragment.xml" value="0.22" />
+        <entry key="..\:/NotepadJava/app/src/main/res/layout/fragment_edit.xml" value="0.20416666666666666" />
+        <entry key="..\:/NotepadJava/app/src/main/res/layout/item_note.xml" value="0.33" />
         <entry key="..\:/NotepadJava/app/src/main/res/layout/list_fragment.xml" value="0.18" />
       </map>
     </option>

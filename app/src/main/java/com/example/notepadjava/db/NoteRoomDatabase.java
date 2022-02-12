@@ -44,9 +44,10 @@ abstract class NoteRoomDatabase extends RoomDatabase {
             super.onCreate(db);
 
             databaseWriteExecutor.execute(() -> {
-                NoteDao dao = INSTANCE.noteDao();
-                Note note = new Note("Hello", "test");
-                dao.delete(note);
+           //     NoteDao dao = INSTANCE.noteDao();
+            //    Note note = new Note("Hello", "test");
+            //    dao.delete(note);
+
             });
         }
     };
